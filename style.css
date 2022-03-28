@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: cornflowerblue;
 }
 .big{
@@ -14,9 +17,12 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 4, 4);
     height: 400px;
     width: 400px;
+    
 }button{
     border: none;
     margin-top: 20px;
@@ -28,12 +34,13 @@ body{
     background-color: darkseagreen;
 
 }
+
 .gridLow{
     display:flex;
     background-color:gray;
     height: 25px;
     width: 25px;
-   
+    
 }
 .gridLow1{
     display:flex;
@@ -77,4 +84,20 @@ body{
     height: 25px;
     width: 25px;
 
+}.gridWhiteMid1{
+    display:flex;
+    background-color:white;
+    height: 12.5px;
+    width: 12.5px;
+   
+}
+.gridWhiteHigh1{
+    display:flex;
+    background-color:white;
+    height: 6.25px;
+    width: 6.25px;
+   
+}
+.clean{
+    display:none ;
 }
