@@ -30,7 +30,7 @@ highBtn.addEventListener('click' , (e) =>{
 white.addEventListener('click',() => {
     container.addEventListener('mouseover',()=>{
          colo ='white';
- console.log(colo) 
+  
       })
  
 });
@@ -38,7 +38,7 @@ white.addEventListener('click',() => {
 eraser.addEventListener('click',()=>{
     container.addEventListener('mouseover',()=>{
         colo ='rgb(179, 176, 176';
-    console.log(colo)
+    
       })
     
 });
@@ -47,7 +47,7 @@ eraser.addEventListener('click',()=>{
 black.addEventListener('click',()=>{
     container.addEventListener('mouseover',()=>{
         colo ='black';
-    console.log(colo)
+    
       })
     
 });
@@ -56,7 +56,7 @@ black.addEventListener('click',()=>{
 rainBow.addEventListener('click',()=>{
     container.addEventListener('mouseover',()=>{
       colo = rgb()
-    console.log(colo)  
+    
     })
     
 
